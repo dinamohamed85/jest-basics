@@ -1,0 +1,26 @@
+{
+  "name": "jest-basics",
+  "version": "1.0.0",
+  "description": "jest basics and main topics to start learn javascript unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinamohamed85/jest-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinamohamed85/jest-basics/issues"
+  },
+  "homepage": "https://github.com/dinamohamed85/jest-basics#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}
