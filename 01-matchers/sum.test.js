@@ -1,9 +1,11 @@
 const sum = require('./sum');
 
+// Value type like strings or numbers
 it('adds 1 + 2 to equal 3', () => {
 	expect(sum(1, 2)).toBe(3);
 });
 
+// Refrence type (different address in memory) like object or array
 it('object assignment', () => {
 	const data = { one: 1 };
 	data['two'] = 2;
@@ -19,7 +21,7 @@ it('adding positive numbers is not zero', () => {
 });
 
 // TRUTHY AND FALSEY
-
+// false : null , 0 , undefined , empty string ""
 it('null', () => {
 	const n = null;
 	expect(n).toBeNull();
@@ -56,9 +58,10 @@ it('adding floating point numbers', () => {
 	const value = 0.1 + 0.2;
 	//expect(value).toBe(0.3);           This won't work because of rounding error
 	expect(value).toBeCloseTo(0.3); // This works.
+	expect(value).toBeCloseTo(0.299); // This works.
 });
 
-// STRINGS //
+// STRINGS // Regular expressions - RegEx
 
 it('there is no I in team', () => {
 	expect('team').not.toMatch(/I/);
@@ -95,7 +98,7 @@ it('compiling android goes as expected', () => {
 		Error
 	);
 
-	// You can also use the exact error message or a regexp
+	// -- You can also use the exact error message or a regexp
 	expect(() => compileAndroidCode()).toThrow(
 		'you are using the wrong JDK'
 	);
