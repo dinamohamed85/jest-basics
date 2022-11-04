@@ -29,7 +29,7 @@ afterAll(() => {
 
 describe('animals array', () => {
 
-	// push
+	// push : add element last
 	it('should add animal to end of array', () => {
 		animals.push('aligator');
 		expect(animals[animals.length - 1]).toBe(
@@ -37,7 +37,7 @@ describe('animals array', () => {
 		);
 	});
 
-	// unshift
+	// unshift : add element first
 	it('should add animal to beginning of array', () => {
 		animals.unshift('monkey');
 		expect(animals[0]).toBe('monkey');

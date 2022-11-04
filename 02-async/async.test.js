@@ -9,7 +9,7 @@ it('should return correct todo', () => {
 	});
 });
 
-// or await async
+// or async await 
 it('should return correct todo', async () => {
 
 	// const todo = fetchData(1);  // This won't work
