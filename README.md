@@ -7,5 +7,10 @@ jest basics and main topics to start learn javascript unit testing
 - npm install axios  || npm i axios 
 - npm test
 
-- Change package.json\ add property "testwatch": "jest --watchAll"  into  "scripts" object
-- npm run testwatch
+- Change package.json\ "test": "jest --watchAll" 
+
+## what would you learn in this repo :-
+- matchers : Numbers (toBe) , Strings ( reverseString, regex, Anagram ) , Araays ( toEqual, chunk) ,objects
+- async : axios, async  await , promis(.then) 
+- setup : beforeEach , beforeAll , afterEach, afterAll
+- mocks : jest.fn, axios.get , async  await , spyOn
