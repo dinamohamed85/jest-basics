@@ -1,6 +1,7 @@
 # jest-basics
 jest basics and main topics to start learn javascript unit testing
 
+## setup environment and commands :-
 - npm init -y
 - npm i --save-dev jest
 - Change package.json\ add property test: "jest"  into  "scripts" object
